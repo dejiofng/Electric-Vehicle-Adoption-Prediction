@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 
-model = joblib.load("model.joblib")
+model = joblib.load("Electric Vehicle Adoption/model.joblib")
 
 def run():
     st.set_page_config(

@@ -63,7 +63,7 @@ The prediction model uses the following features:
 3. Feature Encoding
 4. Model Training
 5. Model Evaluation
-6. Model Serialization using Pickle
+6. Model Serialization using Joblib
 7. Deployment with Streamlit
 
 ---
@@ -75,7 +75,7 @@ Electric-Vehicle-Adoption-Prediction/
 │
 ├── app.py                  # Streamlit web application
 ├── EV_Adoption.ipynb       # Model development notebook
-├── model.pkl               # Trained machine learning model
+├── model.joblib               # Trained machine learning model
 ├── dataset.csv             # Dataset used for training
 ├── requirements.txt        # Project dependencies
 └── README.md
@@ -90,7 +90,7 @@ Electric-Vehicle-Adoption-Prediction/
 - Pandas
 - NumPy
 - Scikit-learn
-- Pickle
+- Joblib
 - Jupyter Notebook
 
 ---

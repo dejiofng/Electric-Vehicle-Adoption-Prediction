@@ -1,7 +1,7 @@
 import streamlit as st
-import pickle
+import joblib
 
-model = pickle.load(open('model.pickle', 'rb'))
+model = joblib.load("model.joblib")
 
 def run():
     st.set_page_config(
